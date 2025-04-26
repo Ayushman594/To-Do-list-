@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 div{
     width:30vw;
     margin-left: auto;
@@ -16,7 +17,7 @@ div{
     margin-top: 90px;
     border-radius: 25px;
     padding: 40px;
-    box-shadow: 2px 2px 3px 3px gainsboro;
+    box-shadow: 2px 2px 3px 5px gainsboro;
 }
 input[type="text"]{
     margin-top: 12px;
@@ -35,20 +36,24 @@ input[type="submit"]:hover{
 }
 h3{
     font-family:inter;
-    color:rgb(17, 255, 0);
+    color:rgb(0, 0, 0);
 }
 label,input[type="submit"],#clear{
     font-family:inter;
 }
 .red{
-    color:red;
+    color:rgb(255, 52, 52);
 }
 #clear{
     float:right;
     width:100px;
     color:aliceblue;
-    background-color: rgb(61, 87, 190);
+    background-color: rgb(255, 1, 1);
     border-radius: 20px;
     padding:10px;
     margin-top: 14px;
+}
+#clear:hover{
+    color: rgb(255, 1, 1);
+    background-color: aliceblue;
 }
