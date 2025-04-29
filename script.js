@@ -1,7 +1,6 @@
 let userInput=document.querySelector("#task");
 let btn=document.querySelector("#submit");
 let valid=document.querySelector("#validate");
-let ul=document.querySelector("ul");
 let div=document.querySelector("div");
 let clearbtn=document.querySelector("#clear");
 
@@ -33,6 +32,7 @@ btn.addEventListener("click",()=>{
 
         //This code handles userInput and add to the list
         li.innerText= ' ' + userInput.value;
+        li.style.overflow="auto";
         
         //This code is used for displaying date and time to each list items added
         let time=new Date();
@@ -63,8 +63,6 @@ btn.addEventListener("click",()=>{
             if(editedvalue!="" && editedvalue!=null){
             li.innerText=" "+ editedvalue;
             li.prepend(check);
-            div.append(edit);
-            div.append(del);
             }
         })
 
@@ -75,6 +73,7 @@ btn.addEventListener("click",()=>{
             displaytime.remove();
             li.remove();
         })
+
         //code for removing all list items using clear all button
         clearbtn.addEventListener("click",()=>{
             edit.remove();
@@ -82,6 +81,7 @@ btn.addEventListener("click",()=>{
             displaytime.remove();
             li.remove();
         })
+
         //Code that clears input screen
         userInput.value="";
 
@@ -89,6 +89,7 @@ btn.addEventListener("click",()=>{
         valid.innerText="";
         
     }
+    
     //This code displays error if user doesn't enter any task but still clicks on Add to list button
     else{
        valid.innerHTML="*please enter a task";
