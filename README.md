@@ -1,5 +1,5 @@
 # To-Do-list-
 A To-Do List is a list of tasks that need to be completed or things that you want to do. It's a tool for organization and prioritization, helping individuals keep track of their obligations and goals. Here In this Project, A To-Do List is implemented using HTML, CSS and Vanilla JavaScript. <p>There is a screen where users can add their Tasks By clicking on ADD TO LIST button. There is also a CLEAR ALL button which clears entire list of tasks at once. Once a Task is added, User can see a checkbox added before their tasks. So that if the task is completed, user can check their task. You can also see there is an EDIT and DELETE buttons added below each Tasks. User can edit their task By clicking on EDIT button. User can also delete each task individually (without using CLEAR ALL button) By clicking on delete button. Additionally, I have implemented a  Time and Date functions which displays when a task is added and which date.</p>
 
-<img src="To Do List.png" alt="To-do-list" width="200" height="200">
+<img src="To Do List.png" alt="To-do-list" width="200px" height="200px">
 
