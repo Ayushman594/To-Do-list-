@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("todo.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -97,7 +97,7 @@ label,input[type="submit"],#clear{
 @media only screen and (max-width:500px){
     body{
         display:flex;
-        background-image: url("todo.png");
+        background-image: url("Background.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
