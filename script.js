@@ -38,7 +38,7 @@ btn.addEventListener("click",()=>{
         let time=new Date();
         let displaytime=document.createElement("h6");
         displaytime.innerText=`Task added at  ${time.getDate()}/${time.getMonth()+1}/${time.getFullYear()}, ${time.getHours()}:${time.getMinutes()}`;
-        displaytime.style.color="white";
+        displaytime.style.color="black";
         displaytime.style.marginTop="20px";
 
         //This code prepends checkbox to the list items
